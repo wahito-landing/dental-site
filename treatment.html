@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>診療案内 | 橋本claude歯科</title>
+  <meta name="description" content="橋本claude歯科の診療案内。一般歯科・小児歯科・矯正歯科・審美歯科・インプラント・予防歯科など幅広く対応しております。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <span class="header__logo-main">橋本claude歯科</span>
+        <span class="header__logo-sub">Hashimoto Claude Dental Clinic</span>
+      </a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="index.html"      class="nav__link">トップ</a></li>
+          <li><a href="treatment.html"  class="nav__link">診療案内</a></li>
+          <li><a href="access.html"     class="nav__link">医院案内</a></li>
+          <li><a href="staff.html"      class="nav__link">スタッフ</a></li>
+          <li><a href="firstvisit.html" class="nav__link">初めての方へ</a></li>
+          <li><a href="faq.html"        class="nav__link">よくある質問</a></li>
+        </ul>
+        <a href="tel:042-123-4567" class="nav__tel">
+          <small>お電話でご予約</small>
+          042-123-4567
+        </a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" role="dialog" aria-label="モバイルメニュー">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html"      class="mobile-nav__link">トップ</a></li>
+      <li><a href="treatment.html"  class="mobile-nav__link">診療案内</a></li>
+      <li><a href="access.html"     class="mobile-nav__link">医院案内・アクセス</a></li>
+      <li><a href="staff.html"      class="mobile-nav__link">スタッフ紹介</a></li>
+      <li><a href="firstvisit.html" class="mobile-nav__link">初めての方へ</a></li>
+      <li><a href="faq.html"        class="mobile-nav__link">よくある質問</a></li>
+    </ul>
+    <a href="tel:042-123-4567" class="mobile-nav__tel">
+      <span>お電話でご予約</span>
+      042-123-4567
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">診療案内</h1>
+        <p class="page-header__breadcrumb">
+          <a href="index.html">トップ</a> &gt; 診療案内
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== 診療メニュー ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>診療メニュー</h2>
+          <p>お口の健康を幅広くサポートする診療を行っております</p>
+        </div>
+
+        <div class="treatment-grid">
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">🦷</div>
+            <h3 class="treatment-card__title">一般歯科</h3>
+            <p class="treatment-card__text">
+              虫歯の治療・歯周病の治療など、歯科医療の基本となる診療です。
+              痛みに配慮した麻酔処置で、なるべく不快感を感じさせない治療を心がけています。
+              症状が軽いうちの早期発見・早期治療が大切です。
+            </p>
+            <div class="treatment-card__price">
+              <strong>保険適用</strong>：虫歯治療・抜歯・詰め物など
+            </div>
+          </div>
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">👶</div>
+            <h3 class="treatment-card__title">小児歯科</h3>
+            <p class="treatment-card__text">
+              お子さまの乳歯・永久歯の管理から虫歯予防まで、成長段階に合わせたケアを提供します。
+              歯医者が苦手なお子さまも安心して来院できるよう、笑顔で優しく対応しています。
+              フッ素塗布・シーラントなどの予防処置も行います。
+            </p>
+            <div class="treatment-card__price">
+              <strong>保険適用</strong>：小児の虫歯治療・フッ素塗布など
+            </div>
+          </div>
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">😁</div>
+            <h3 class="treatment-card__title">矯正歯科</h3>
+            <p class="treatment-card__text">
+              歯並びやかみ合わせを整える矯正治療を行っています。
+              ワイヤー矯正のほか、取り外し可能なマウスピース矯正（インビザライン）にも対応。
+              目立ちにくい矯正装置で、日常生活への負担を軽減します。
+            </p>
+            <div class="treatment-card__price">
+              <strong>自費診療</strong>：マウスピース矯正 385,000円〜（税込）
+            </div>
+          </div>
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">✨</div>
+            <h3 class="treatment-card__title">審美歯科・ホワイトニング</h3>
+            <p class="treatment-card__text">
+              歯の見た目を美しく整える治療です。オフィスホワイトニング（院内施術）・
+              ホームホワイトニング（自宅ケア）のほか、セラミッククラウン・ラミネートベニアで
+              自然で白い歯を実現します。
+            </p>
+            <div class="treatment-card__price">
+              <strong>自費診療</strong>：オフィスホワイトニング 22,000円〜（税込）
+            </div>
+          </div>
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">🔩</div>
+            <h3 class="treatment-card__title">インプラント</h3>
+            <p class="treatment-card__text">
+              失った歯の根の代わりとなる人工歯根（チタン製）を顎骨に埋め込み、
+              自分の歯に近い感覚で噛めるようにする治療法です。
+              入れ歯やブリッジが合わない方にもおすすめです。
+              CT検査による精密診断で安全に実施します。
+            </p>
+            <div class="treatment-card__price">
+              <strong>自費診療</strong>：インプラント 330,000円〜（1本・税込）
+            </div>
+          </div>
+
+          <div class="treatment-card">
+            <div class="treatment-card__icon">🛡️</div>
+            <h3 class="treatment-card__title">予防歯科</h3>
+            <p class="treatment-card__text">
+              歯の病気を未然に防ぐ「予防」を重視した診療です。
+              歯科衛生士によるプロフェッショナルクリーニング（PMTC）・
+              歯周病検査・ブラッシング指導など、定期的なメインテナンスで
+              歯の健康を維持します。
+            </p>
+            <div class="treatment-card__price">
+              <strong>保険適用</strong>：定期検診・スケーリング（歯石除去）など
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 保険・自費について ===== -->
+    <section class="section section--bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>保険診療と自費診療について</h2>
+        </div>
+        <div class="info-grid">
+          <div class="info-box">
+            <h3 class="info-box__title">🏥 保険診療</h3>
+            <ul class="info-box__list">
+              <li>健康保険が適用され、自己負担は原則3割です</li>
+              <li>虫歯・歯周病治療・抜歯・入れ歯などが対象です</li>
+              <li>使用できる材料・方法は保険のルール内に限られます</li>
+              <li>保険証を必ずお持ちください</li>
+            </ul>
+          </div>
+          <div class="info-box">
+            <h3 class="info-box__title">⭐ 自費診療</h3>
+            <ul class="info-box__list">
+              <li>保険適用外の治療で、全額自己負担となります</li>
+              <li>より審美性・機能性の高い素材・方法を選択できます</li>
+              <li>矯正・ホワイトニング・インプラント・セラミックなどが該当</li>
+              <li>治療前に詳しい説明とお見積りをご提示します</li>
+            </ul>
+          </div>
+        </div>
+        <div class="note-box">
+          ご不明な点はお気軽にご相談ください。治療前に費用・治療方針について丁寧にご説明します。
+          「保険と自費、どちらがよいか」も含めて相談していただけます。
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>診療のご予約はお電話で</h2>
+        <p>初診・再診ともにお電話にてご予約を承っております</p>
+        <p class="cta-tel"><a href="tel:042-123-4567">042-123-4567</a></p>
+        <p class="cta-hours">受付時間：月〜金 9:00〜18:30 ／ 土 9:00〜13:00（日・祝 休診）</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__brand-name">橋本claude歯科</p>
+          <p class="footer__brand-text">〒252-0143<br>神奈川県相模原市緑区橋本1-2-3<br>JR横浜線・京王相模原線 橋本駅 北口 徒歩5分</p>
+          <a href="tel:042-123-4567" class="footer__tel-link">☎ 042-123-4567</a>
+        </div>
+        <div class="footer__nav">
+          <p class="footer__nav-title">サイトマップ</p>
+          <ul class="footer__nav-list">
+            <li><a href="index.html"      class="footer__nav-link">トップページ</a></li>
+            <li><a href="treatment.html"  class="footer__nav-link">診療案内</a></li>
+            <li><a href="access.html"     class="footer__nav-link">医院案内・アクセス</a></li>
+            <li><a href="staff.html"      class="footer__nav-link">スタッフ紹介</a></li>
+            <li><a href="firstvisit.html" class="footer__nav-link">初めての方へ</a></li>
+            <li><a href="faq.html"        class="footer__nav-link">よくある質問</a></li>
+          </ul>
+        </div>
+        <div class="footer__hours">
+          <p class="footer__nav-title">診療時間</p>
+          <table class="footer-hours-table">
+            <tr><th>月〜金</th><td>9:00 〜 18:30</td></tr>
+            <tr><th>土曜日</th><td>9:00 〜 13:00</td></tr>
+            <tr><th>休診日</th><td>日曜・祝日</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 橋本claude歯科. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>医院案内・アクセス | 橋本claude歯科</title>
+  <meta name="description" content="橋本claude歯科の医院案内・アクセス情報。神奈川県相模原市緑区橋本、橋本駅北口より徒歩5分です。診療時間・駐車場情報もご確認ください。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <span class="header__logo-main">橋本claude歯科</span>
+        <span class="header__logo-sub">Hashimoto Claude Dental Clinic</span>
+      </a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="index.html"      class="nav__link">トップ</a></li>
+          <li><a href="treatment.html"  class="nav__link">診療案内</a></li>
+          <li><a href="access.html"     class="nav__link">医院案内</a></li>
+          <li><a href="staff.html"      class="nav__link">スタッフ</a></li>
+          <li><a href="firstvisit.html" class="nav__link">初めての方へ</a></li>
+          <li><a href="faq.html"        class="nav__link">よくある質問</a></li>
+        </ul>
+        <a href="tel:042-123-4567" class="nav__tel">
+          <small>お電話でご予約</small>
+          042-123-4567
+        </a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" role="dialog" aria-label="モバイルメニュー">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html"      class="mobile-nav__link">トップ</a></li>
+      <li><a href="treatment.html"  class="mobile-nav__link">診療案内</a></li>
+      <li><a href="access.html"     class="mobile-nav__link">医院案内・アクセス</a></li>
+      <li><a href="staff.html"      class="mobile-nav__link">スタッフ紹介</a></li>
+      <li><a href="firstvisit.html" class="mobile-nav__link">初めての方へ</a></li>
+      <li><a href="faq.html"        class="mobile-nav__link">よくある質問</a></li>
+    </ul>
+    <a href="tel:042-123-4567" class="mobile-nav__tel">
+      <span>お電話でご予約</span>
+      042-123-4567
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">医院案内・アクセス</h1>
+        <p class="page-header__breadcrumb">
+          <a href="index.html">トップ</a> &gt; 医院案内・アクセス
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== 医院情報 + 地図 ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="access-grid">
+
+          <!-- 基本情報 -->
+          <div>
+            <h2 style="font-size:1.3rem; margin-bottom:20px; color:var(--primary);">医院基本情報</h2>
+            <table class="clinic-info-table">
+              <tr>
+                <th>医院名</th>
+                <td>橋本claude歯科</td>
+              </tr>
+              <tr>
+                <th>住所</th>
+                <td>〒252-0143<br>神奈川県相模原市緑区橋本1-2-3<br>橋本ビル2F</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td><a href="tel:042-123-4567" style="font-weight:700; font-size:1.1rem;">042-123-4567</a></td>
+              </tr>
+              <tr>
+                <th>診療時間</th>
+                <td>
+                  月〜金：9:00〜18:30<br>
+                  土　　：9:00〜13:00<br>
+                  <span style="color:var(--text-muted); font-size:.85rem;">（昼休み 13:00〜14:30）</span>
+                </td>
+              </tr>
+              <tr>
+                <th>休診日</th>
+                <td>日曜・祝日</td>
+              </tr>
+              <tr>
+                <th>最寄り駅</th>
+                <td>
+                  JR横浜線・京王相模原線<br>
+                  「橋本駅」北口 徒歩5分
+                </td>
+              </tr>
+              <tr>
+                <th>駐車場</th>
+                <td>あり（10台・無料）<br>
+                  <span style="color:var(--text-muted); font-size:.85rem;">満車の場合は近隣コインパーキングをご利用ください</span>
+                </td>
+              </tr>
+              <tr>
+                <th>バリアフリー</th>
+                <td>エレベーター完備・車椅子でご来院可能</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- 地図 -->
+          <div>
+            <h2 style="font-size:1.3rem; margin-bottom:20px; color:var(--primary);">地図</h2>
+            <div class="map-area">
+              <!--
+                実際に公開する際は、下記のプレースホルダーを
+                Google Maps の埋め込みコードに置き換えてください。
+                例: <iframe src="https://www.google.com/maps/embed?pb=..." ...></iframe>
+              -->
+              <div class="map-placeholder">
+                <span>🗺️</span>
+                <strong>地図を表示する</strong>
+                <small>ここに Google Maps の埋め込みコードを挿入してください</small>
+              </div>
+            </div>
+            <div style="margin-top:14px;">
+              <a
+                href="https://maps.google.co.jp/maps?q=神奈川県相模原市緑区橋本"
+                target="_blank"
+                rel="noopener"
+                style="display:inline-block; background:var(--primary); color:#fff; padding:10px 22px; border-radius:var(--radius-sm); font-size:.85rem; font-weight:500;"
+              >
+                Google マップで開く ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 診療時間 ===== -->
+    <section class="section section--bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>診療時間</h2>
+        </div>
+        <table class="hours-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>月</th><th>火</th><th>水</th>
+              <th>木</th><th>金</th><th>土</th><th>日・祝</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>午前<br><small style="font-weight:400;color:var(--text-muted);">9:00〜13:00</small></td>
+              <td class="open">○</td><td class="open">○</td><td class="open">○</td>
+              <td class="open">○</td><td class="open">○</td><td class="open">○</td>
+              <td class="closed">✕</td>
+            </tr>
+            <tr>
+              <td>午後<br><small style="font-weight:400;color:var(--text-muted);">14:30〜18:30</small></td>
+              <td class="open">○</td><td class="open">○</td><td class="open">○</td>
+              <td class="open">○</td><td class="open">○</td><td class="closed">✕</td>
+              <td class="closed">✕</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="hours-note">
+          ※ 祝日は休診となります。<br>
+          ※ 最終受付は診療終了の30分前までです（午前：12:30まで、午後：18:00まで）。<br>
+          ※ 急患は可能な範囲で対応しますので、まずはお電話ください。
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== アクセス方法 ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>アクセス方法</h2>
+        </div>
+        <div class="access-methods">
+          <div class="access-method">
+            <div class="access-method__icon">🚃</div>
+            <h3 class="access-method__title">電車でお越しの方</h3>
+            <p class="access-method__text">
+              JR横浜線・京王相模原線<br>
+              「橋本駅」北口より<br>
+              <strong>徒歩約5分</strong><br><br>
+              北口を出て、○○通りを直進。
+              △△交差点を左折し、
+              橋本ビル2Fが当院です。
+            </p>
+          </div>
+          <div class="access-method">
+            <div class="access-method__icon">🚌</div>
+            <h3 class="access-method__title">バスでお越しの方</h3>
+            <p class="access-method__text">
+              神奈川中央交通バス<br>
+              「橋本駅北口」バス停より<br>
+              乗車、「△△停留所」下車<br>
+              <strong>徒歩約2分</strong><br><br>
+              詳しい時刻表は<br>
+              バス会社HPをご確認ください。
+            </p>
+          </div>
+          <div class="access-method">
+            <div class="access-method__icon">🚗</div>
+            <h3 class="access-method__title">お車でお越しの方</h3>
+            <p class="access-method__text">
+              医院専用駐車場あり<br>
+              （10台・無料）<br><br>
+              国道16号線から○○方面へ。
+              △△の交差点を曲がり、
+              橋本ビル横の駐車場を
+              ご利用ください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>ご来院の前にお電話ください</h2>
+        <p>ご予約・ご不明な点はお気軽にお電話でお問い合わせください</p>
+        <p class="cta-tel"><a href="tel:042-123-4567">042-123-4567</a></p>
+        <p class="cta-hours">受付時間：月〜金 9:00〜18:30 ／ 土 9:00〜13:00（日・祝 休診）</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__brand-name">橋本claude歯科</p>
+          <p class="footer__brand-text">〒252-0143<br>神奈川県相模原市緑区橋本1-2-3<br>JR横浜線・京王相模原線 橋本駅 北口 徒歩5分</p>
+          <a href="tel:042-123-4567" class="footer__tel-link">☎ 042-123-4567</a>
+        </div>
+        <div class="footer__nav">
+          <p class="footer__nav-title">サイトマップ</p>
+          <ul class="footer__nav-list">
+            <li><a href="index.html"      class="footer__nav-link">トップページ</a></li>
+            <li><a href="treatment.html"  class="footer__nav-link">診療案内</a></li>
+            <li><a href="access.html"     class="footer__nav-link">医院案内・アクセス</a></li>
+            <li><a href="staff.html"      class="footer__nav-link">スタッフ紹介</a></li>
+            <li><a href="firstvisit.html" class="footer__nav-link">初めての方へ</a></li>
+            <li><a href="faq.html"        class="footer__nav-link">よくある質問</a></li>
+          </ul>
+        </div>
+        <div class="footer__hours">
+          <p class="footer__nav-title">診療時間</p>
+          <table class="footer-hours-table">
+            <tr><th>月〜金</th><td>9:00 〜 18:30</td></tr>
+            <tr><th>土曜日</th><td>9:00 〜 13:00</td></tr>
+            <tr><th>休診日</th><td>日曜・祝日</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 橋本claude歯科. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

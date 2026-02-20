@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スタッフ紹介 | 橋本claude歯科</title>
+  <meta name="description" content="橋本claude歯科のスタッフ紹介。院長をはじめ、歯科衛生士・歯科助手のスタッフが患者さまを心からお迎えします。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .staff-greeting {
+      background: var(--primary-light);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .staff-greeting p {
+      font-size: .92rem;
+      color: var(--text);
+      line-height: 2;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .staff-greeting strong {
+      color: var(--primary);
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <span class="header__logo-main">橋本claude歯科</span>
+        <span class="header__logo-sub">Hashimoto Claude Dental Clinic</span>
+      </a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="index.html"      class="nav__link">トップ</a></li>
+          <li><a href="treatment.html"  class="nav__link">診療案内</a></li>
+          <li><a href="access.html"     class="nav__link">医院案内</a></li>
+          <li><a href="staff.html"      class="nav__link">スタッフ</a></li>
+          <li><a href="firstvisit.html" class="nav__link">初めての方へ</a></li>
+          <li><a href="faq.html"        class="nav__link">よくある質問</a></li>
+        </ul>
+        <a href="tel:042-123-4567" class="nav__tel">
+          <small>お電話でご予約</small>
+          042-123-4567
+        </a>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" role="dialog" aria-label="モバイルメニュー">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html"      class="mobile-nav__link">トップ</a></li>
+      <li><a href="treatment.html"  class="mobile-nav__link">診療案内</a></li>
+      <li><a href="access.html"     class="mobile-nav__link">医院案内・アクセス</a></li>
+      <li><a href="staff.html"      class="mobile-nav__link">スタッフ紹介</a></li>
+      <li><a href="firstvisit.html" class="mobile-nav__link">初めての方へ</a></li>
+      <li><a href="faq.html"        class="mobile-nav__link">よくある質問</a></li>
+    </ul>
+    <a href="tel:042-123-4567" class="mobile-nav__tel">
+      <span>お電話でご予約</span>
+      042-123-4567
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">スタッフ紹介</h1>
+        <p class="page-header__breadcrumb">
+          <a href="index.html">トップ</a> &gt; スタッフ紹介
+        </p>
+      </div>
+    </div>
+
+    <!-- ===== 院長紹介 ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>院長ご挨拶</h2>
+        </div>
+
+        <div class="staff-director">
+          <div class="staff-photo-box" aria-label="院長の写真（プレースホルダー）">👨‍⚕️</div>
+          <div>
+            <p class="staff-role">院長 / 歯科医師</p>
+            <h2 class="staff-name">橋本 一郎</h2>
+            <p class="staff-name-en">Ichiro Hashimoto, D.D.S.</p>
+            <p class="staff-license">
+              📋 略歴：〇〇大学歯学部卒業 ／ 〇〇大学病院歯科口腔外科 勤務<br>
+              　　　　 日本歯科医師会 会員 ／ 日本口腔インプラント学会 認定医<br>
+              　　　　 日本矯正歯科学会 会員
+            </p>
+            <p class="staff-message">
+              当院にお越しくださりありがとうございます。<br><br>
+              私がこの地で開院したのは、地域の皆さまの「かかりつけ歯科医」として
+              長くお付き合いできる医院を作りたかったからです。<br><br>
+              歯は一生ものです。虫歯や歯周病の治療はもちろん、
+              予防を通じて大切な歯を守るお手伝いをしたいと考えています。
+              「歯医者は怖い」「痛いから行きたくない」というお声をよく聞きますが、
+              当院ではできる限り痛みを抑え、リラックスして受診していただけるよう工夫しています。<br><br>
+              どんな小さなことでも気になることがあれば、遠慮なくご相談ください。
+              スタッフ一同、笑顔でお待ちしています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== スタッフ一覧 ===== -->
+    <section class="section section--bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>スタッフ紹介</h2>
+          <p>患者さまの笑顔のために、チーム一丸となって取り組んでいます</p>
+        </div>
+
+        <div class="staff-grid">
+
+          <div class="staff-card">
+            <div class="staff-card__photo" aria-label="副院長の写真">👩‍⚕️</div>
+            <div class="staff-card__body">
+              <p class="staff-card__role">副院長 / 歯科医師</p>
+              <h3 class="staff-card__name">橋本 花子</h3>
+              <p class="staff-card__name-en">Hanako Hashimoto, D.D.S.</p>
+              <p class="staff-card__message">
+                小児歯科・矯正を専門に担当しています。
+                お子さまが歯医者を好きになってもらえるよう、
+                笑顔で接することを大切にしています。
+                お子さまの成長に合わせたケアをご提案します。
+              </p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__photo" aria-label="歯科衛生士の写真">🧑‍⚕️</div>
+            <div class="staff-card__body">
+              <p class="staff-card__role">歯科衛生士</p>
+              <h3 class="staff-card__name">田中 みゆき</h3>
+              <p class="staff-card__name-en">Miyuki Tanaka, D.H.</p>
+              <p class="staff-card__message">
+                歯科衛生士歴12年。予防処置・歯周病治療補助を担当しています。
+                「歯のクリーニング」を通じて患者さまのお口の健康を守ることが
+                私のやりがいです。ブラッシング指導もお気軽にご相談ください。
+              </p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__photo" aria-label="歯科衛生士の写真">👩‍⚕️</div>
+            <div class="staff-card__body">
+              <p class="staff-card__role">歯科衛生士</p>
+              <h3 class="staff-card__name">鈴木 あかり</h3>
+              <p class="staff-card__name-en">Akari Suzuki, D.H.</p>
+              <p class="staff-card__message">
+                患者さまのお口の状態をわかりやすく説明することを心がけています。
+                定期検診・PMTC（クリーニング）でお口の健康維持をサポートします。
+                何でもお気軽にご相談ください。
+              </p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__photo" aria-label="歯科助手の写真">😊</div>
+            <div class="staff-card__body">
+              <p class="staff-card__role">歯科助手・受付</p>
+              <h3 class="staff-card__name">山田 さくら</h3>
+              <p class="staff-card__name-en">Sakura Yamada</p>
+              <p class="staff-card__message">
+                受付・診療補助を担当しています。
+                患者さまが安心して来院していただけるよう、
+                笑顔での対応を大切にしています。
+                ご予約やご不明な点はお気軽にお声がけください。
+              </p>
+            </div>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__photo" aria-label="歯科助手の写真">😄</div>
+            <div class="staff-card__body">
+              <p class="staff-card__role">歯科助手・受付</p>
+              <h3 class="staff-card__name">伊藤 なな</h3>
+              <p class="staff-card__name-en">Nana Ito</p>
+              <p class="staff-card__message">
+                皆さまが「来てよかった」と思っていただける医院作りを目指しています。
+                待ち時間のご案内や院内のご案内など、
+                何かお困りのことがあればいつでもお声がけください。
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="staff-greeting">
+          <strong>チームからのメッセージ</strong>
+          <p>
+            私たちスタッフ全員が「患者さまを第一に」を合言葉に日々取り組んでいます。
+            不安なこと、わからないこと、どんな小さなことでもお気軽にお話しください。
+            全力でサポートいたします。
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>スタッフ一同、お待ちしております</h2>
+        <p>ご予約はお電話にて承っております。お気軽にどうぞ。</p>
+        <p class="cta-tel"><a href="tel:042-123-4567">042-123-4567</a></p>
+        <p class="cta-hours">受付時間：月〜金 9:00〜18:30 ／ 土 9:00〜13:00（日・祝 休診）</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__brand-name">橋本claude歯科</p>
+          <p class="footer__brand-text">〒252-0143<br>神奈川県相模原市緑区橋本1-2-3<br>JR横浜線・京王相模原線 橋本駅 北口 徒歩5分</p>
+          <a href="tel:042-123-4567" class="footer__tel-link">☎ 042-123-4567</a>
+        </div>
+        <div class="footer__nav">
+          <p class="footer__nav-title">サイトマップ</p>
+          <ul class="footer__nav-list">
+            <li><a href="index.html"      class="footer__nav-link">トップページ</a></li>
+            <li><a href="treatment.html"  class="footer__nav-link">診療案内</a></li>
+            <li><a href="access.html"     class="footer__nav-link">医院案内・アクセス</a></li>
+            <li><a href="staff.html"      class="footer__nav-link">スタッフ紹介</a></li>
+            <li><a href="firstvisit.html" class="footer__nav-link">初めての方へ</a></li>
+            <li><a href="faq.html"        class="footer__nav-link">よくある質問</a></li>
+          </ul>
+        </div>
+        <div class="footer__hours">
+          <p class="footer__nav-title">診療時間</p>
+          <table class="footer-hours-table">
+            <tr><th>月〜金</th><td>9:00 〜 18:30</td></tr>
+            <tr><th>土曜日</th><td>9:00 〜 13:00</td></tr>
+            <tr><th>休診日</th><td>日曜・祝日</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 橋本claude歯科. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
